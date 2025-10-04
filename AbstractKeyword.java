@@ -28,7 +28,10 @@
 // Abstract Keyword is used for defining abstract classes and methods in Java.
 // An abstract class cannot be instantiated and may contain abstract methods that must be implemented by subclasses.
 // Example:
-abstract class Car{
+abstract class Car 
+{
+    // we always declare abstract method not define it 
+    //  because define it in subclass.. it is cumpulsory to define all abstract method in subclass 
     abstract void drive();
     public void playMusic()
     {
@@ -57,3 +60,7 @@ public class AbstractKeyword
     }
 
 }
+
+// for abstract method abstract class is mandatory 
+// but for abstract class it is not mandat to have abstract method it can have implementing method, abstract , multiple abstract,
+// or no abstract method 
