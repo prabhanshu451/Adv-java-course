@@ -11,6 +11,10 @@ abstract class A
 
 // }
 
+
+
+// when we have to implement interface or abstract class only once we use anonymous Inner class
+
 public class AbsAnonyIc 
 {
     public static void main(String[] args)
