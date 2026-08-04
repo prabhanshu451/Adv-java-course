@@ -7,7 +7,7 @@ public class OptionalCl {
         // Optional class is used to as a container object to represent the presence or absence of a non-null value, 
         // primarily to prevent NullPointerException crashes. 
         Optional<String> op = ls.stream()
-                                .filter(str -> str.contains("i"))
+                                .filter(str -> str.length() > 3)
                                 .findAny();
         System.out.println(op.orElse("Not Found") );
         // here we can also print the customized error message

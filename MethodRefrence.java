@@ -17,6 +17,10 @@ public class MethodRefrence {
         // It can be used with functional interfaces, which are interfaces that have a single abstract method. 
         // The method reference can be used to refer to the method of the functional interface.
         // It is a way to pass a method as an argument to another method. 
+        // which method we use in stream to filter elements based on chracter size and then convert them to upper case and then sort in alphabetical order print them using method reference.
+        // .filter(str -> str.length() > 3)
+        // .map(String::toUpperCase)
+        // .sorted()
         // It can be used with the Stream API to perform operations on collections of data in a more efficient and readable way.
     }
     
